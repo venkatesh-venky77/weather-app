@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id ='searchbox' placeholder="Enter City Name">
+            <button><img src="search.jpeg" alt="retry" ></button>
+        </div>
+        <div class="weather">
+            <img  id="weather-icon" src= "varsham.avif" alt="retry" width="50px">
+            <h1 class="temp">  <h1>
+            <h2 class="city-name">Chennai</h2>
+            <!-- <img id="weather-icon" src="https://api.openweathermap.org/weather-condition/09d.png" alt="retry" width="50px"> -->
+            <div class="detail">
+                <div class="colum">
+                    <img src="hum.jpg" >
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                    <div class="colum">
+                        <img src="gaali.avif" >
+                        <div>
+                            <p class="wind">20km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+        </div>
+    </div>
+    <script src="weather.js">
+
+    </script>
+
+    
+</body>
+</html>
